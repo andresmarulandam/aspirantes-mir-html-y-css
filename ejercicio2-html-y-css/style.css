@@ -1,0 +1,42 @@
+form{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(#bd09b7,#6b4cf5);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+    color: white;
+}
+h1{
+    color: white;
+}
+
+.email, .password, .terminos, .genero{
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.boton{
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;
+    width: 100px;
+}
+fieldset{
+    border-color: transparent;
+    margin-top: 10px;
+}
+.terminos-checkbox{
+    float: left;
+}
+
+@media (min-width: 500px) {
+    form {
+      width: 300px; 
+    }
+  }
